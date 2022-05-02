@@ -1,0 +1,68 @@
+#content {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 41px;  /* Height of the footer */
+}
+
+#content h1, #content h2 {
+    text-align: center;
+}
+
+#content .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#content .testimonials img {
+    padding: 5px;
+}
+
+#content img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
+/* #content h2 a, #content h2 a:visited {
+    color: initial;
+} */
+
+#content a, #content a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+    color: rgb(51, 51, 207);
+}
+
+.boxed {
+    border: 2px solid rgb(var(--notblack));
+    background: rgb(var(--blurple));
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boxed:last-of-type {
+    margin-bottom: 10px;
+}
+
+.content-header-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header-data h2 {
+    margin-left: 15px!important;
+}
+
+.content-header-data img {
+    margin: 0!important;
+    border-radius: 50%!important;
+    height: 70px!important;
+}
